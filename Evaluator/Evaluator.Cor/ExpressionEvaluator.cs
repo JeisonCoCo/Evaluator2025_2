@@ -96,6 +96,7 @@ namespace Evaluator.Cor;
             return stack.Peek();
         }
 
+
         private static double Calulate(double op1, char item, double op2) => item switch
         {
             '*' => op1 * op2,
