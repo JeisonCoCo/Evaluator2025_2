@@ -90,7 +90,7 @@ namespace Evaluator.Cor;
                 }
                 else
                 {
-                    stack.Push(Convert.ToDouble(item.ToString()));
+                stack.Push(Convert.ToDouble(item.ToString()));
                 }
             }
             return stack.Peek();
